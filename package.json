@@ -9,8 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "nhandler": "^3.0.4"
+    "discord.js": "^14.14.1"
   },
   "scripts": {
     "start": "bun run main.ts"
