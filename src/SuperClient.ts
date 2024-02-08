@@ -1,7 +1,7 @@
 import { ChatInputCommandInteraction, Client, Collection, GatewayIntentBits, Partials } from "discord.js";
-import BaseComponent from "./Helpers/BaseComponent";
-import BaseCommand from "./Helpers/BaseCommand";
-import BaseEvent from "./Helpers/BaseEvent";
+import BaseComponent from "./Abstracts/BaseComponent";
+import BaseCommand from "./Abstracts/BaseCommand";
+import BaseEvent from "./Abstracts/BaseEvent";
 import { readdirSync } from "fs";
 import { join } from "path";
 

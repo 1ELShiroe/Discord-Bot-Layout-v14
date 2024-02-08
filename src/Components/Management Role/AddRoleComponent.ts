@@ -1,5 +1,5 @@
 import { ButtonInteraction, EmbedBuilder } from "discord.js";
-import BaseComponent from "../../Helpers/BaseComponent";
+import BaseComponent from "../../Abstracts/BaseComponent";
 
 export default class extends BaseComponent {
     CustomId = "addRole";

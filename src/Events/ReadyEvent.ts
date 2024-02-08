@@ -1,4 +1,4 @@
-import BaseEvent from "../Helpers/BaseEvent";
+import BaseEvent from "../Abstracts/BaseEvent";
 import SuperClient from "../SuperClient";
 
 export default class ReadyEvent implements BaseEvent {

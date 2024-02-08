@@ -1,5 +1,5 @@
 import { ChatInputCommandInteraction, CacheType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionFlagsBits } from "discord.js";
-import BaseCommand from "../../Helpers/BaseCommand";
+import BaseCommand from "../../Abstracts/BaseCommand";
 import SuperClient from "../../SuperClient";
 
 export default class AutoRoleCommand implements BaseCommand {

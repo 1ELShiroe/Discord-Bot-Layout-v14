@@ -1,5 +1,5 @@
 import { Interaction } from "discord.js";
-import BaseEvent from "../Helpers/BaseEvent";
+import BaseEvent from "../Abstracts/BaseEvent";
 import SuperClient from "../SuperClient";
 
 export default class InteractionCreateEvent implements BaseEvent {
