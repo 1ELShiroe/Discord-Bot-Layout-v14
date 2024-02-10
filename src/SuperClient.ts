@@ -18,7 +18,7 @@ export default class SuperClient extends Client {
 
     public initDate: number;
 
-    private constructor() {
+    constructor() {
         super({
             intents: [
                 GatewayIntentBits.Guilds,
